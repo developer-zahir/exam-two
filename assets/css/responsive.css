@@ -1,0 +1,313 @@
+@media all and (max-width: 1300px) {
+  .fixed__width {
+    width: 85%;
+  }
+  html {
+    font-size: 15px;
+  }
+  .our__features__section .our__feature__section__left {
+    margin-right: 40px;
+  }
+  .header__inner .header__content .header__content__right {
+    margin-left: 64px;
+  }
+  .faq__section .faq__section__main .faq__section__right {
+    margin-left: 24px;
+  }
+  .faq__section .section__title h2 {
+    text-align: left;
+  }
+  .faq__section .section__title p {
+    line-height: 24px;
+  }
+  .testimonial__section .testimonial__section__main_inner .testimonial__item p {
+    line-height: 24px;
+  }
+  .pricing__section .pricing__section__main .pricing__section__item {
+    margin: 14px;
+  }
+  .latest__news__section .latest__news__section__main .lasest__news__item {
+    margin: 9px;
+  }
+  .testimonial__section .testimonial__section__main_inner .testimonial__item {
+    margin: 20px 52px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .header__inner .header__content {
+    height: 84vh;
+  }
+  .header__inner .header__content .header__content__left h1 {
+    font-size: 2.5rem;
+    margin: 8px 0;
+  }
+  .header__inner .header__content .header__content__left h2 {
+    font-size: 2.1rem;
+    margin: 7px 0;
+  }
+  .our__features__section .our__feature__section__right h2 {
+    font-size: 2rem;
+    line-height: 41px;
+  }
+  .our__features__section .our__feature__section__right p {
+    line-height: 25px;
+  }
+  .our__features__section .our__feature__section__right .features__link > ul li a {
+    margin-bottom: 15px;
+  }
+  .more__with__us__section .section__title h2 {
+    font-size: 2.1rem;
+    margin: 12px auto;
+    line-height: 43px;
+    margin-bottom: 33px;
+  }
+  .our__features__list__section .our__features__list__main .features__list__item {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  html {
+    font-size: 14px;
+  }
+  .header__inner .header__content {
+    height: 576px;
+  }
+  .pricing__section .pricing__section__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pricing__section .pricing__section__main .pricing__section__item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+  }
+  .latest__news__section .latest__news__section__main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .latest__news__section .latest__news__section__main .lasest__news__item {
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .our__features__section .our__features__section__main {
+    display: block;
+    text-align: center;
+  }
+  .our__features__section .our__features__section__main > div {
+    width: 100%;
+  }
+  .our__features__section .our__features__section__main .our__feature__section__right {
+    text-align: left;
+    margin-top: 50px;
+  }
+  .our__features__section .our__features__section__main .more__with__us__section form {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .our__features__list__section .our__features__list__main .features__list__item {
+    width: 100%;
+  }
+  .our__features__list__section .our__features__list__main .features__list__item .features__list__item__image {
+    text-align: center;
+  }
+  .faq__section .faq__section__main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .faq__section .faq__section__main .faq__section__left {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 50px;
+  }
+  .faq__section .faq__section__main .faq__section__right {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+  }
+  .testimonial__section .testimonial__section__main_inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .testimonial__section .testimonial__section__main_inner > div {
+    -webkit-box-flex: 80% !important;
+        -ms-flex: 80% !important;
+            flex: 80% !important;
+    margin: 60px 0 !important;
+    padding: 70px !important;
+  }
+  footer .footer__second__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer__second__row .footer__second__row_item:last-child {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0;
+    margin-bottom: 60px;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  footer .footer__second__row .footer__second__row_item:first-child {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-flex: 36%;
+        -ms-flex: 36%;
+            flex: 36%;
+  }
+  footer .footer__second__row .footer__second__row_item:nth-child(2) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .header__inner .header__content .header__content__right {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .header__inner .header__content {
+    height: 445px;
+  }
+  .our__features__section .our__feature__section__left img {
+    max-width: 81%;
+  }
+  .faq__section .faq__section__main .faq__section__right img {
+    max-width: 77%;
+  }
+  .faq__section {
+    padding: 50px 0;
+  }
+  .our__features__list__section {
+    padding: 64px 0;
+  }
+  .more__with__us__section form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .more__with__us__section form input {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin: 10px 0;
+  }
+  .more__with__us__section form input[type='submit'] {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .more__with__us__section .section__title h2 {
+    width: 94%;
+  }
+  .our__project__section .our__project__section__items__inner .our__project__section__row__one,
+  .our__project__section__row__two,
+  .our__project__section__row__three {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .our__project__section .our__project__section__items__inner .our__project__section__row__one > div,
+  .our__project__section__row__two > div,
+  .our__project__section__row__three > div {
+    -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+            flex: 50% !important;
+  }
+  .our__project__section .our__project__section__items__inner .our__project__section__row__one > div img,
+  .our__project__section__row__two > div img,
+  .our__project__section__row__three > div img {
+    width: 100%;
+    height: 400px;
+  }
+  .our__project__section .our__project__section__items__inner .our__project__section__row__one .project__item {
+    cursor: pointer;
+    margin: 23px 95px;
+  }
+  header nav #my__nav {
+    display: none;
+  }
+  header nav #my__nav .nav__center ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header .sticky-top {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .our__project__section .our__project__section__nav button {
+    font-size: 0.9rem;
+    padding: 9px 17px;
+  }
+  .pricing__section .pricing__section__main .pricing__section__item,
+  .latest__news__section .latest__news__section__main .lasest__news__item {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+  }
+  footer .footer__frist__row .footer__frist__row__right a {
+    display: none;
+  }
+  footer {
+    padding: 55px 0;
+  }
+  footer .footer__second__row .footer__second__row_item:nth-child(2) {
+    display: none;
+  }
+  .our__features__section .our__feature__section__right .features__link > ul {
+    margin-right: 52px;
+    margin-top: 10px;
+  }
+  .our__project__section .our__project__section__items__inner .our__project__section__row__one .project__item {
+    cursor: pointer;
+    margin: 23px 25px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .fixed__width {
+    width: 95%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .our__project__section .our__project__section__nav button {
+    font-size: 0.9rem;
+    padding: 8px 11px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
