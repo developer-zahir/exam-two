@@ -1306,6 +1306,9 @@ footer {
                         font-weight: 500;
                         text-transform: capitalize;
                         transition: all 0.4s;
+                        span{
+                            text-transform: uppercase;
+                        }
                         &:hover {
                             color: #fc5228;
                         }

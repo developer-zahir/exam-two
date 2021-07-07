@@ -1784,6 +1784,10 @@ footer .footer__second__row .footer__second__row_item ul li a {
   transition: all 0.4s;
 }
 
+footer .footer__second__row .footer__second__row_item ul li a span {
+  text-transform: uppercase;
+}
+
 footer .footer__second__row .footer__second__row_item ul li a:hover {
   color: #fc5228;
 }
