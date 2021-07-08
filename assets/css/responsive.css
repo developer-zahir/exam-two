@@ -423,11 +423,21 @@
   .nav__right {
     display: none;
   }
+  header {
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+  }
   header ol {
-    height: 60%;
+    height: 100% !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .sticky-top {
     position: fixed !important;
+  }
+  .header__inner .header__content .header__content__left {
+    margin-top: 30px;
   }
 }
 
@@ -535,6 +545,9 @@
     overflow-x: hidden;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  header {
+    height: 531px;
   }
 }
 
