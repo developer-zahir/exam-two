@@ -413,6 +413,12 @@
   .nav__right {
     display: none;
   }
+  header ol {
+    height: 60%;
+  }
+  .sticky-top {
+    position: fixed !important;
+  }
 }
 
 @media all and (max-width: 650px) {
@@ -475,6 +481,9 @@
   .our__features__list__section .our__features__list__main .features__list__item .features__list__item__image {
     margin-right: 0 !important;
     width: 100%;
+  }
+  .sticky-top {
+    position: static !important;
   }
 }
 

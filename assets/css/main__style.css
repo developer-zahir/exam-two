@@ -163,7 +163,7 @@ header nav #my__nav .nav__center ul li:nth-last-child(1) a::before, header nav #
 header nav #my__nav .nav__center ul li a {
   color: #fff;
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: capitalize;
   font-size: 1rem;
   -webkit-transition: 0.4s;
@@ -263,8 +263,8 @@ header nav #my__nav .nav__right {
           flex-grow: 0;
   border-radius: 50px;
   background: linear-gradient(135deg, #fd491a 0%, #d91700 100%);
-  -webkit-transition: background 0.6s ease-out;
-  transition: background 0.6s ease-out;
+  -webkit-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 header nav #my__nav .nav__right:hover {
@@ -1171,7 +1171,7 @@ header .sticky-top {
   left: 13px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  top: 0.68rem;
+  top: 0.8rem;
   opacity: 1;
   font-size: 1.1rem;
 }
@@ -1184,7 +1184,7 @@ header .sticky-top {
   right: 19px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  top: 0.68rem;
+  top: 0.8rem;
   opacity: 1;
   font-size: 1.1rem;
 }
@@ -1199,7 +1199,7 @@ header .sticky-top {
 }
 
 .faq__section .faq__section__main .faq__section__left .faq__item details[open] > summary {
-  background: linear-gradient(135deg, #fd491a 0%, #d91700 100%);
+  background: linear-gradient(135deg, #d91700 0%, #fd491a 100%);
   color: #fff;
 }
 
@@ -1215,7 +1215,7 @@ header .sticky-top {
       -ms-user-select: none;
           user-select: none;
   position: relative;
-  padding: 11px 40px;
+  padding: 13px 40px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50px;
