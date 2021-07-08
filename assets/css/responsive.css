@@ -388,6 +388,9 @@
             box-sizing: border-box;
     padding: 20px 10px;
   }
+  #mynav #my__nav ul a {
+    color: #fff;
+  }
   #mynav #my__nav ul li {
     display: block;
     -webkit-box-sizing: border-box;
@@ -405,12 +408,17 @@
   }
   #mynav #my__nav ul li a:hover {
     background: #1747b5;
-    color: #20ac95;
   }
   #mynav #my__nav ul li ul {
     left: 100px;
     width: 70%;
     overflow: hidden;
+  }
+  #mynav #my__nav ul li ul li a {
+    color: black;
+  }
+  #mynav #my__nav ul li ul li a:hover {
+    color: #ffff;
   }
   .nav__right {
     display: none;
